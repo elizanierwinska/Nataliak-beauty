@@ -1,0 +1,26 @@
+.zalecenia{
+  height: 100vh;
+  background-color: var(--third-color)
+}
+
+.zalecania-container{
+  padding: 50px 40px 40px 40px;
+  height: 60vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.zalecania-container img {
+ height: 700px;
+}
+
+.zalecenia-brwi h1{
+  font-family: var(--logo-font);
+  font-size: 50px
+}
+
+.zalecenia-brwi {
+  font-family: var(--main-font);
+  margin-right: 500px;
+}
