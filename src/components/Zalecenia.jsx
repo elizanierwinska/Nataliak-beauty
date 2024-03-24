@@ -3,7 +3,7 @@ import './Zalecenia.css';
 export default function Zalecenia() {
   return( 
   <div className='zalecenia'>
-    <div className="zalecania-laminacja-container">
+    <div className="zalecenia-laminacja-container">
       <div className="zabieg-info">
         <h1>Stylizacja Brwi</h1>
         <p><b>Laminacja brwi z farbowaniem</b></p>
@@ -11,7 +11,7 @@ export default function Zalecenia() {
         <p><b>Laminacja brwi</b></p>
         <p>Czas wykonywania usługi: 50min</p>
       </div>
-      <div className="zalecenia-brwi">
+      <div className="zalecenia-brwi-rzęsy">
         <h3>PRZECIWSKAZANIA</h3>
         <p>ciąża</p>
         <p>sucha skura w brwiach, podrażnienia</p>
@@ -52,6 +52,33 @@ export default function Zalecenia() {
         <p><b>Koloryzacja brwi henną lub farbką</b></p>
         <p>Czas wykonywania usługi: 1h 20min</p>
       </div>
+    </div>
+    <div className="zalecenia-rzęsy-container">
+      <div className="zabieg-info">
+        <h1>Lifting rzęs</h1>
+        <p><b>Zabieg laminacji z liftingiem i botoxem</b></p>
+        <p>Czas wykonywania usługi: 1h 20min</p>
+      </div>
+      <div className="zalecenia-brwi-rzęsy">
+        <h3>PRZECIWSKAZANIA</h3>
+        <p>alergia na składniki</p>
+        <p>świeży makijaż permanentny</p>
+        <p>zapalenia/choroby oczu</p>
+        <p>zwiększona wrażliwość oczu</p>
+        <p>opryszczka w aktywnej fazie</p>
+        <h3>WSKAZANIA</h3>
+        <p>dla osób które potrzebują odywienia swoich rzęs</p>
+        <p>lubią naturalny efekt</p>
+        <p>robiących przerwę w przedłużaniu rzęs</p>
+        <p>których ręsy rosną w dół</p>
+        <p>osób, które chciałyby przyśpieszyć porost rzęs</p>
+        <h3>ZALECENIA</h3>
+        <p>przez 24h nie pocieramy rzęs</p>
+        <p>NIE moczymy ani NIE tuszujemy</p>
+        <p>podczas pierwszej nocy nie zaleca się spać twarzą w poduszkę</p>
+        <p></p>
+      </div>
+      <img src="./images/eye-henna.jpeg" alt="stylizacja brwi"/>
     </div>
   </div>)
 }

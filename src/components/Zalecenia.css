@@ -3,8 +3,8 @@
   background-color: var(--third-color)
 }
 
-.zalecania-laminacja-container{
-  padding-top: 50px;
+.zalecenia-laminacja-container{
+  padding-top: 130px;
   height: 60vh;
   background-color: var(--main-color);
   display: flex;
@@ -16,26 +16,26 @@
   width: 500px;
 }
 
-.zalecania-laminacja-container img {
+.zalecenia-laminacja-container img{
  height: 700px;
 }
 
-.zalecenia-brwi h1{
+.zalecenia-brwi-rzęsy h1{
   font-family: var(--logo-font);
   font-size: 50px
 }
 
-.zalecenia-brwi {
+.zalecenia-brwi-rzęsy {
   font-family: var(--main-font);
   margin-right: 20%;
   padding-top: 5%
 }
 
-.zalecenia-brwi h3, .zalecenia-brwi-henna h3, .zalecenia-brwi p, .zalecenia-brwi-henna p {
+.zalecenia-brwi-rzęsy h3, .zalecenia-brwi-henna h3, .zalecenia-brwi-rzęsy p, .zalecenia-brwi-henna p {
   text-align: center;
 }
 
-.zalecenia-brwi h3, .zalecenia-brwi-henna h3 {
+.zalecenia-brwi-rzęsy h3, .zalecenia-brwi-henna h3 {
   margin: 10px 0;
 }
 
@@ -44,6 +44,7 @@
   height: 60vh;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 100px;
 }
 
 .zalecenia-koloryzacja-container img{
@@ -61,4 +62,19 @@
   font-family: var(--main-font);
   margin-left: 5%;
   padding-top: 8%
+}
+
+.zalecenia-rzęsy-container {
+  padding-top: 130px;
+  height: 60vh;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.zalecenia-rzęsy-container img {
+  height: 700px;
+  width: 600px;
+  margin-top: -160px;
+  margin-right: 100px;
 }
