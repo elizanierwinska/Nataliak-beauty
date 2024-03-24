@@ -7,10 +7,11 @@
 
   --main-font: "Lora", serif;
   --font-color: rgb(28, 28, 28);
+
+  --third-color: #f6f0e6;
 }
 
 * {
   margin: 0;
   padding: 0;
-  background-color: var(--main-color);
 }
