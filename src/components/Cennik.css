@@ -10,7 +10,7 @@
 
 .cennik{
   height: 62vh;
-  width: 40%;
+  width: 50%;
   transition: all 0.5s ease-in-out;
   padding: 40px;
   background-color: var(--third-color);
@@ -40,9 +40,10 @@
   justify-content: center;
   padding-bottom: 10px;
 }
+
 .flex p {
   width: 30%;
-  margin-left: 100px
+  margin-left: 20%;
 }
 
 @media(max-width: 1000px){
