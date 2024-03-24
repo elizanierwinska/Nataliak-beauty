@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Layout from './components/Layout'
 import Cennik from './components/Cennik';
 import Zalecenia from './components/Zalecenia';
+import Regulamin from './components/Regulamin';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/cennik" element={<Cennik />} />
         <Route path="/zalecenia" element={<Zalecenia />} />
+        <Route path="/regulamin" element={<Regulamin />} />
         </Route>
       </Routes>
     </BrowserRouter>
