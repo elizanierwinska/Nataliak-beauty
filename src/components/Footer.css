@@ -1,0 +1,14 @@
+footer {
+  background-color: var(--main-color)
+}
+
+footer hr {
+  border-top: 1px solid var(--logo-color)
+}
+
+footer p {
+  padding: 20px;
+  color: var(--logo-color);
+  text-align: center;
+  font-size: 17px;
+}

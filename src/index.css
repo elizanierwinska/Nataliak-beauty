@@ -8,7 +8,8 @@
   --main-font: "Lora", serif;
   --font-color: rgb(28, 28, 28);
 
-  --third-color: #f6f0e6;
+  --third-color: #fcf8f2;
+  --border-color: #cec5b6;
 }
 
 * {

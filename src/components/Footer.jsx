@@ -1,5 +1,8 @@
-import './Footer.jsx';
+import './Footer.css';
 
 export default function Footer() {
-  return <div> hello, world</div>
+  return <footer>
+    <hr />
+    <p>Copyright © 2024 Natalia Koryszewska</p>
+  </footer>
 }
