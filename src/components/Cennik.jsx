@@ -3,7 +3,6 @@ import './Cennik.css'
 export default function Cennik() {
   return (
   <div className="container">
-    <div className="outer-container">
       <div className="cennik">
         <h1>Cennik</h1>
         <h3>MAKIJAŻE</h3>
@@ -57,7 +56,6 @@ export default function Cennik() {
           <p><b>40zł</b></p>
         </div>
       </div>
-    </div>
   </div>
   )
 }

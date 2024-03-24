@@ -1,17 +1,22 @@
 .zalecenia{
-  height: 100vh;
+  height: 100%;
   background-color: var(--third-color)
 }
 
-.zalecania-container{
-  padding: 50px 40px 40px 40px;
+.zalecania-laminacja-container{
+  padding-top: 50px;
   height: 60vh;
   background-color: var(--main-color);
   display: flex;
   justify-content: space-around;
 }
 
-.zalecania-container img {
+.zabieg-info{
+  padding-left: 30px;
+  width: 500px;
+}
+
+.zalecania-laminacja-container img {
  height: 700px;
 }
 
@@ -22,5 +27,38 @@
 
 .zalecenia-brwi {
   font-family: var(--main-font);
-  margin-right: 500px;
+  margin-right: 20%;
+  padding-top: 5%
+}
+
+.zalecenia-brwi h3, .zalecenia-brwi-henna h3, .zalecenia-brwi p, .zalecenia-brwi-henna p {
+  text-align: center;
+}
+
+.zalecenia-brwi h3, .zalecenia-brwi-henna h3 {
+  margin: 10px 0;
+}
+
+.zalecenia-koloryzacja-container{
+  margin-top: 170px;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zalecenia-koloryzacja-container img{
+  width: 750px;
+  height: 600px;
+}
+
+
+.zabieg-info-henna{
+  padding-right: 30px;
+  width: 600px;
+}
+
+.zalecenia-brwi-henna {
+  font-family: var(--main-font);
+  margin-left: 5%;
+  padding-top: 8%
 }

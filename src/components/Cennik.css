@@ -8,13 +8,12 @@
   align-items: center;
 }
 
-.outer-container {
+
+
+.cennik{
   height: 62vh;
   width: 40%;
   transition: all 0.5s ease-in-out;
-}
-
-.cennik{
   padding: 40px;
   background-color: var(--third-color);
   border: 1px solid var(--border-color)

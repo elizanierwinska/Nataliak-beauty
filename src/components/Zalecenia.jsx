@@ -3,35 +3,55 @@ import './Zalecenia.css';
 export default function Zalecenia() {
   return( 
   <div className='zalecenia'>
-    <div className="zalecania-container">
-      <div className="zalecenia-brwi">
+    <div className="zalecania-laminacja-container">
+      <div className="zabieg-info">
         <h1>Stylizacja Brwi</h1>
         <p><b>Laminacja brwi z farbowaniem</b></p>
         <p>Czas wykonywania usługi: 1,5h</p>
         <p><b>Laminacja brwi</b></p>
         <p>Czas wykonywania usługi: 50min</p>
+      </div>
+      <div className="zalecenia-brwi">
         <h3>PRZECIWSKAZANIA</h3>
-        <ul>
-          <li>ciąża</li>
-          <li>sucha skura w brwiach, podrażnienia</li>
-          <li>krótki lub przycięty włos</li>
-          <li>włos cienki z ubytkami</li>
-          <li>zabiegi złuszczające przed zabiiegiem</li>
-          <li>stosowanie izoteku</li>
-        </ul>
+        <p>ciąża</p>
+        <p>sucha skura w brwiach, podrażnienia</p>
+        <p>krótki lub przycięty włos</p>
+        <p>włos cienki z ubytkami</p>
+        <p>zabiegi złuszczające przed zabiegiem</p>
+        <p>stosowanie izoteku</p>
         <h3>WSKAZANIA</h3>
-        <ul>
-          <li>brwi trudne do ujarzmienia</li>
-          <li>brwi bez kształtu</li>
-          <li>włoski brwi są bardzo sztywne</li>
-          <li>szybko wypłukują kolor po koloryzacji brwi</li>
-          <li>mają niepoprawny kierunek</li>
-        </ul>
+        <p>brwi trudne do ujarzmienia</p>
+        <p>włoski brwi są bardzo sztywne</p>
+        <p>szybko wypłukują kolor po koloryzacji brwi</p>
+        <p>mają niepoprawny kierunek</p>
         <p>*zabieg prezentuje się najkorzystniej , gdy klientka posiada pełną brew bez ubytków (szczególnie w dolnej linii brwi)</p>
         <h3>ZALECENIA</h3>
-        <p>Po zabiegu laminacji brwi klientka powinna po 2 dni nawilać włoski olejkiem lub kremem arganowym! Brwi naley czesać i układać na MYDEŁKO lub ŻEL do brwi!</p>
+        <p>Po zabiegu laminacji brwi klientka powinna po 2 dni nawilać włoski olejkiem lub kremem arganowym! Brwi należ czesać i układać na MYDEŁKO lub ŻEL do brwi!</p>
       </div>
-      <img src="./images/brow-zalecenia-1.jpeg"/>
+      <img src="./images/brow-zalecenia-1.jpeg" alt="stylizacja brwi"/>
+    </div>
+    <div className="zalecenia-koloryzacja-container">
+      <img src="./images/brow-zalecenia-2.jpeg" alt="stylizacja brwi"/>
+      <div className="zalecenia-brwi-henna">
+        <h3>PRZECIWSKAZANIA</h3>
+        <p>alergia na składniki</p>
+        <p>sucha skura w brwiach, podrażnienia</p>
+        <p>zapalenia/choroby oczu</p>
+        <p>zabiegi złuszczające przed zabiegiem</p>
+        <p>stosowanie izoteku</p>
+        <h3>WSKAZANIA</h3>
+        <p>brwi trudne do ujarzmienia</p>
+        <p>brwi bez kształtu</p>
+        <p>mają niepoprawny kierunek</p>
+        <p>*zabieg prezentuje się najkorzystniej , gdy klientka posiada pełną brew bez ubytków (szczególnie w dolnej linii brwi)</p>
+        <h3>ZALECENIA</h3>
+        <p>Po zabiegu laminacji brwi klientka powinna ich nie moczyć. Staramy się ich nie przemywać oraz przez pierwsze dni unikać sauny, basenu i solarium. Brwi należ czesać i układać na MYDEŁKO lub ŻEL do brwi!</p>
+      </div>
+      <div className="zabieg-info-henna">
+        <h1>Stylizacja Brwi</h1>
+        <p><b>Koloryzacja brwi henną lub farbką</b></p>
+        <p>Czas wykonywania usługi: 1h 20min</p>
+      </div>
     </div>
   </div>)
 }
