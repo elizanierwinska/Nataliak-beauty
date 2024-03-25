@@ -5,25 +5,29 @@
   padding-top: 80px
 }
 
+
 .top-container {
   height: 80vh;
-  background-color: var(--logo-color);
+  background-color: var(--secondary-color);
+}
+
+.title-flex{
+  margin-left: 30%;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 
 .top-container h1 {
-  position: absolute;
   font-size: 100px;
-  top: 30vh;
-  left: 40%;
   font-family: var(--logo-font);
 }
 
 .top-container h2 {
-  position: absolute;
   font-size: 30px;
   font-style: italic;
-  top: 44vh;
-  left: 43%;
   font-family: var(--main-font);
 }
 
@@ -48,13 +52,41 @@
 
 .second-img {
   padding-right: 5%;
-  margin-bottom: -300px
+  margin-bottom: -200px
 }
 
 .third-img {
-  margin-bottom: -150px;
+  margin-bottom: -100px;
+}
+
+.img {
+  padding-top: 0;
+  margin-top: -20.2%;
 }
 
 .about-container {
   height: 60vh;
+  background-color: var(--third-color);
+  padding-top: 30%;
+  padding-left: 10%;
+  display: flex;
+}
+
+.about-container h1 {
+  width: 40%;
+  font-size: 50px;
+  font-family: var(--logo-font);
+}
+
+.about-container p {
+  width: 800px;
+  font-size: 20px;
+  font-family: var(--main-font);
+}
+
+#signature {
+  text-align: end;
+  margin-top: 10%;
+  font-size: 30px;
+  font-family: var(--logo-font);
 }
