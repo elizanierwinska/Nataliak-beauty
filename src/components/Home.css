@@ -1,5 +1,5 @@
 .Home {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   color: black;
   padding-top: 80px
@@ -8,6 +8,34 @@
 .top-container {
   height: 80vh;
   background-color: var(--logo-color);
+}
+
+.top-container h1 {
+  position: absolute;
+  font-size: 100px;
+  top: 30vh;
+  left: 40%;
+  font-family: var(--logo-font);
+}
+
+.top-container h2 {
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  top: 44vh;
+  left: 43%;
+  font-family: var(--main-font);
+}
+
+.top-container h2 a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--font-color);
+  transition: all 0.5s ease-in-out;
+}
+
+.top-container h2 a:hover {
+  margin-left: 10px;
 }
 
 .main-img{ 
@@ -25,4 +53,8 @@
 
 .third-img {
   margin-bottom: -150px;
+}
+
+.about-container {
+  height: 60vh;
 }
