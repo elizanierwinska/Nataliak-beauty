@@ -1,0 +1,43 @@
+.regulamin{
+  padding-top: 80px;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--third-color);
+  display: flex;
+  background-color: var(--background-color);
+}
+
+.regulamin-container {
+  padding-top: 100px;
+  padding-left: 5%;
+  font-family: var(--main-font);
+}
+
+
+.regulamin-container h1, .regulamin-container h3 {
+  font-family: var(--logo-font);
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.regulamin-container h1 {
+  font-size: 80px;
+}
+
+.regulamin-container h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.regulamin-container p {
+  font-size: 18px;
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+.float {
+  font-style: italic;
+  padding-top: 100px;
+  width: 400px;
+  float: right;
+}

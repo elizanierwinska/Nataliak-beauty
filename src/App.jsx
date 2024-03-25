@@ -4,7 +4,7 @@ import Home from './components/Home'
 import Layout from './components/Layout'
 import Cennik from './components/Cennik';
 import Zalecenia from './components/Zalecenia';
-import Regulamin from './components/Regulamin';
+import Regulamin from './components/Regulamin.jsx';
 
 
 function App() {
