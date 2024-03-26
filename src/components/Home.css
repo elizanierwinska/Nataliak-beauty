@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   color: black;
-  padding-top: 80px
+  padding-top: 1%
 }
 
 
@@ -67,8 +67,7 @@
 .about-container {
   height: 60vh;
   background-color: var(--third-color);
-  padding-top: 30%;
-  padding-left: 10%;
+  padding: 30% 10% 0 10%;
   display: flex;
 }
 

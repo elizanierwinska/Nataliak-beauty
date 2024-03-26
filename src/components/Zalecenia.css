@@ -17,7 +17,7 @@
 }
 
 .zalecenia-laminacja-container img{
- height: 700px;
+ height: 120%;
 }
 
 .zalecenia-brwi-rzęsy h1{
@@ -48,10 +48,8 @@
 }
 
 .zalecenia-koloryzacja-container img{
-  width: 750px;
-  height: 600px;
+  width: 100%;
 }
-
 
 .zabieg-info-henna{
   padding-right: 30px;
@@ -73,8 +71,8 @@
 }
 
 .zalecenia-rzęsy-container img {
-  height: 700px;
-  width: 600px;
+  height: 120%;
+  width: 30%;
   margin-top: -160px;
   margin-right: 100px;
 }
