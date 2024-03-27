@@ -8,6 +8,7 @@ import Regulamin from './components/Regulamin.jsx';
 import Ankieta from './components/Ankieta.jsx';
 import Portfolio from './components/Portfolio';
 import Kontakt from './components/Kontakt';
+import Wizyta from './components/Wizyta';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/ankieta" element={<Ankieta />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/umow-wizyte" element={<Wizyta />} />
         </Route>
       </Routes>
     </BrowserRouter>
