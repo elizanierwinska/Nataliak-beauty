@@ -17,7 +17,7 @@ export default function Home() {
     <div className="about-container">
       <h1>O mnie</h1>
       <div>
-        <p>Cześć! Mam na imię Natalia i profesjonalnie wykonuję makijaż od 20xx roku. Makijaż pasjonował mnie od kiedy pamiętam, z tego względu każdą wolną chwilę poświęcałam nauce nowych technik i styli.xxxxxxxx. Jeśli masz jakiekolwiek pytania <Link to="/contact">skontaktuj się ze mną</Link></p>
+        <p>Cześć! Mam na imię Natalia i profesjonalnie wykonuję makijaż od 20xx roku. Makijaż pasjonował mnie od kiedy pamiętam, z tego względu każdą wolną chwilę poświęcałam nauce nowych technik i styli.xxxxxxxx. Jeśli masz jakiekolwiek pytania <Link to="/kontakt" className="link-to-contact">skontaktuj się ze mną</Link></p>
         <p id="signature">Natalia K.</p>
       </div>
     </div>

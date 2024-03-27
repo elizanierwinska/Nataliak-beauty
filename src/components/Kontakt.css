@@ -1,0 +1,38 @@
+.kontakt {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-color);
+}
+
+.kontakt h1 {
+  font-family: var(--logo-font);
+  margin-bottom: 30px;
+}
+
+.kontakt-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.kontakt-icons img {
+  width: 100px;
+  height: 100px;
+  padding: 12px 12px 12px 12px;
+}
+
+.kontakt-icons img:hover {
+  background-color: var(--logo-color);
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--logo-color);
+  cursor: pointer;
+}
+
+#email-icon {
+  height: 95px;
+  width: 95px;
+}

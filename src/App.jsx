@@ -6,6 +6,8 @@ import Cennik from './components/Cennik';
 import Zalecenia from './components/Zalecenia';
 import Regulamin from './components/Regulamin.jsx';
 import Ankieta from './components/Ankieta.jsx';
+import Portfolio from './components/Portfolio';
+import Kontakt from './components/Kontakt';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/zalecenia" element={<Zalecenia />} />
         <Route path="/regulamin" element={<Regulamin />} />
         <Route path="/ankieta" element={<Ankieta />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/kontakt" element={<Kontakt />} />
         </Route>
       </Routes>
     </BrowserRouter>

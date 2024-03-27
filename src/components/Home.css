@@ -89,3 +89,7 @@
   font-size: 30px;
   font-family: var(--logo-font);
 }
+
+.link-to-contact {
+  color: var(--logo-color)
+}
