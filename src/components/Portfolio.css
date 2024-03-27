@@ -5,12 +5,16 @@
   background-color: var(--third-color);
 }
 
+.portfolio h1 {
+  font-family: var(--logo-font)
+}
+
 .makijaze {
   background-color: var(--main-color);
   padding: 40px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-gap: 5px;
+  grid-gap: 15px;
 }
 
 .makijaze img{
