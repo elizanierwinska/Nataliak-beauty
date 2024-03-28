@@ -1,22 +1,47 @@
 .portfolio {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 10%;
   background-color: var(--third-color);
 }
 
-.portfolio h1 {
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px 8px;
+}
+
+/* .row h1 {
   font-family: var(--logo-font)
+} */
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 8px 8px;
 }
 
-.makijaze {
-  background-color: var(--main-color);
-  padding: 40px;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-gap: 15px;
-}
-
-.makijaze img{
+.column img{
+  margin-top: 16px;
+  vertical-align: middle;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .img {
+    width: 200%
+  }
 }
