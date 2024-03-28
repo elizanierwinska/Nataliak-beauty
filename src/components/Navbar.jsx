@@ -1,11 +1,13 @@
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { IoClose, IoMenu } from 'react-icons/io5';
 
 function Navbar() {
   return (<div className="navbar">
-    <Link to={"/"}>
+    <NavLink to={"/"}>
       <h1>NataliaK Beauty</h1>
-    </Link>
+    </NavLink>
     <div className="links">
       <NavLink className={({isActive}) => isActive ? "active-link" : null} to={"/cennik"}>Cennik</NavLink>
       <NavLink className={({isActive}) => isActive ? "active-link" : null} to={"/umow-wizyte"}>Umów wizytę</NavLink>

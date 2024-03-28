@@ -1,20 +1,17 @@
 .navbar{
   width: 100%;
   height: 80px;
-  background-color: var(--third-color);
+  background-color: var(--main-color);
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navbar a {
-  text-decoration: none;
-}
+
 .navbar a > h1 {
   font-family: var(--logo-font);
   margin-left: 20px;
   text-decoration: none;
-  color: var(--logo-color);
 }
 
 .links {
@@ -24,8 +21,8 @@
 
 .links > a {
   color: var(--font-color);
+  text-decoration: none;
   padding: 10px;
-  transition: all 0.3s ease-in;
 }
 
 .links > a:hover {
@@ -34,7 +31,6 @@
 }
 
 a.active-link {
-  text-decoration: underline;
-  color: var(--logo-color)
+  background-color: var(--secondary-color);
+  border-radius: 10px;
 }
-
