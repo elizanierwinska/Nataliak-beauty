@@ -76,3 +76,15 @@
   margin-top: -160px;
   margin-right: 100px;
 }
+
+@media (max-width: 900px){
+  .zalecenia-laminacja-container img,
+  .zalecenia-koloryzacja-container img,
+  .zalecenia-rzęsy-container img{
+    display: none;
+  }
+
+  .zalecenia-brwi-container, .zalecenia-koloryzacja-container, .zalecenia-laminacja-container {
+    display: block
+  }
+}
