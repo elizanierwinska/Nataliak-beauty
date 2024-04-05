@@ -7,6 +7,14 @@
   align-items: center;
 }
 
-.calendly-inline-widget {
+#calender-inline-widget {
   width: 100%;
+}
+
+#calender-inline-widget.r4nke {
+  color:blueviolet;
+
+}
+#calender-inline-widget.BDYf9{
+  font-family: var(--main-font);
 }
