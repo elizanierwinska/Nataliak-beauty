@@ -1,19 +1,20 @@
 .regulamin{
   height: 100vh;
   width: 100%;
-  background-color: var(--third-color);
   background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #image {
   animation: slide-right 3s;
-  height: 100vh;
-  width: 40%;
+  height: 100%;
 }
 
 .regulamin-container {
-  padding-top: 100px;
-  padding-right: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
   font-family: var(--main-font);
 }
 
@@ -41,7 +42,7 @@
 
 .float {
   font-style: italic;
-  padding-top: 100px;
+  padding-top: 5%;
   width: 400px;
   float: right;
 }
@@ -53,5 +54,74 @@
 
   to {
     margin-left: 0%;
+  }
+}
+
+
+@media(max-width: 450px) {
+  .regulamin{
+    display: block;
+    height: 100%;
+  }
+  .regulamin-container h1 {
+    font-size: 50px;
+  }
+  .regulamin-container h3 {
+    font-size: 20px;
+  }
+  .regulamin-container p {
+    font-size: 12px;
+  }
+  .regulamin-container {
+    padding-bottom: 20px;
+  }
+  .float {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  #image{
+    display: none;
+  }
+  
+  .regulamin {
+    justify-content: center;
+  }
+  .regulamin-container {
+    padding-top: 30px;
+  }
+
+  .regulamin-container h3{
+    margin-bottom: 30px
+  }
+
+  .regulamin-container p {
+    font-size: 15px;
+  }
+
+  .float {
+    padding-top: 20px;
+  }
+}
+@media (max-height: 800px) {
+  .regulamin {
+    height: 100%
+  }
+
+  .regulamin-container {
+    padding-top: 30px;
+  }
+
+  .regulamin-container h3{
+    margin-bottom: 30px
+  }
+
+  .regulamin-container p {
+    font-size: 15px;
+  }
+
+  .float {
+    padding-top: 20px;
   }
 }
