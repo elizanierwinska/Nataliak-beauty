@@ -73,7 +73,7 @@
   margin-left: 10%;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1250px){
   .zalecenia-laminacja-container img,
   .zalecenia-koloryzacja-container img,
   .zalecenia-rzęsy-container img{
@@ -146,14 +146,19 @@
 }
 
 @media (max-width: 620px) and (max-height: 1050px) {
+  .zalecenia {
+    overflow: hidden;
+  }
   .zalecenia-rzęsy-container, .zalecenia-koloryzacja-container, .zalecenia-laminacja-container {
     flex-direction: column;
     align-items: end;
     justify-content: center;
     padding: 10% 5%;
-    margin: auto;
-    /* width: 100%; */
     height: 60%;
+  }
+
+  .zalecenia-koloryzacja-container{
+    padding-top: 0;
   }
 
   .zalecenia-brwi-henna {
