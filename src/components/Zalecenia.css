@@ -108,6 +108,9 @@
     padding-right: 0;
     margin:0
   }
+  .zalecenia-koloryzacja-container img {
+    order: 3;
+  }
 }
 
 @media (max-height: 900px){
@@ -149,10 +152,14 @@
   .zalecenia {
     overflow: hidden;
   }
+  .zalecenia {
+    width: auto;
+  }
   .zalecenia-rzęsy-container, .zalecenia-koloryzacja-container, .zalecenia-laminacja-container {
     flex-direction: column;
     align-items: end;
     justify-content: center;
+    width: auto;
     padding: 10% 5%;
     height: 60%;
   }
