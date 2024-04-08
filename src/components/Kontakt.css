@@ -11,6 +11,7 @@
 .kontakt h1 {
   font-family: var(--logo-font);
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .kontakt-icons {
@@ -35,4 +36,24 @@
 #email-icon {
   height: 95px;
   width: 95px;
+}
+
+.kontakt-icons img,
+#email-icon,
+.kontakt h1 {
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 450px) {
+  .kontakt-icons img {
+    width: 75px;
+    height: 75px;
+  }
+  #email-icon {
+    width: 70px;
+    height: 70px;
+  }
+  .kontakt h1 {
+    font-size: 25px;
+  }
 }
