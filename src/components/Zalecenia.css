@@ -1,5 +1,6 @@
 .zalecenia{
   height: 100%;
+  width: 100%;
   background-color: var(--third-color)
 }
 
@@ -12,7 +13,7 @@
 }
 
 .zabieg-info{
-  padding-left: 30px;
+  padding-left: 2%;
   width: 500px;
 }
 
@@ -27,7 +28,7 @@
 
 .zalecenia-brwi-rzęsy {
   font-family: var(--main-font);
-  margin-right: 20%;
+  margin-right: 10%;
   padding-top: 5%
 }
 
@@ -40,19 +41,15 @@
 }
 
 .zalecenia-koloryzacja-container{
-  margin-top: 170px;
+  margin-top: 10%;
   height: 60vh;
   display: flex;
   justify-content: space-around;
   padding-bottom: 100px;
 }
 
-.zalecenia-koloryzacja-container img{
-  width: 100%;
-}
-
 .zabieg-info-henna{
-  padding-right: 30px;
+  padding-right: 2%;
   width: 600px;
 }
 
@@ -63,7 +60,7 @@
 }
 
 .zalecenia-rzęsy-container {
-  padding-top: 130px;
+  padding-top: 5%;
   height: 60vh;
   background-color: var(--background-color);
   display: flex;
@@ -71,13 +68,12 @@
 }
 
 .zalecenia-rzęsy-container img {
-  height: 120%;
-  width: 30%;
   margin-top: -160px;
   margin-right: 100px;
+  margin-left: 10%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1300px){
   .zalecenia-laminacja-container img,
   .zalecenia-koloryzacja-container img,
   .zalecenia-rzęsy-container img{
@@ -85,6 +81,92 @@
   }
 
   .zalecenia-brwi-container, .zalecenia-koloryzacja-container, .zalecenia-laminacja-container {
-    display: block
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.zalecenia-brwi-rzęsy, .zalecenia-brwi-henna{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .zalecenia-koloryzacja-container, .zalecenia-rzęsy-container{
+    padding-right: 10%;
+  } */
+
+  .zalecenia-brwi-henna {
+    order: 2;
+    width: 100%;
+    padding-right: 11%;
+  }
+  .zabieg-info-henna {
+    order: 1;
+    padding-left: 2%;
+    width: 500px;
+    padding-right: 0;
+    margin:0
+  }
+}
+
+@media (max-height: 900px){
+  .zalecenia-laminacja-container,
+  .zalecenia-koloryzacja-container,
+  .zalecenia-rzęsy-container {
+    height: 545px;
+  }
+  .zalecenia-laminacja-container img{
+    width: 500px;
+    height: 669px;
+  }
+
+  .zalecenia-brwi-rzęsy {
+    margin-top: -3%;
+  }
+  .zalecenia-brwi-henna {
+    margin-top: -5%
+  }
+}
+
+@media (max-height: 1250px) and (max-width:1600px) {
+  .zalecenia-laminacja-container img{
+    width: 500px;
+    height: 669px;
+  }
+  .zalecenia-koloryzacja-container img{
+    width: 750px;
+    height: 550px;
+  }
+  .zalecenia-rzęsy-container img{
+    width: 450px;
+    height: 650px;
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 620px) and (max-height: 1050px) {
+  .zalecenia-rzęsy-container, .zalecenia-koloryzacja-container, .zalecenia-laminacja-container {
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 10% 5%;
+    margin: auto;
+    /* width: 100%; */
+    height: 60%;
+  }
+
+  .zalecenia-brwi-henna {
+    padding: 0;
+  }
+
+  .zabieg-info, .zabieg-info-henna{
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+
+  .zabieg-info-henna {
+    padding-bottom: 10%;
   }
 }
