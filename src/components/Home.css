@@ -166,10 +166,10 @@
   .about-container {
     height: 40vh;
   }
-  .top-container h1,
+  /* .top-container h1,
   .top-container h2 {
     text-shadow: 0 0 10px var(--logo-color)
-  }
+  } */
   .top-container h1 {
     font-size: 55px;
   }
