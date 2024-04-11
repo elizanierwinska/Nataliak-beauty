@@ -17,7 +17,7 @@
 
 
 .top-container {
-  height: 800px;
+  height: 80vh;
   background-color: var(--secondary-color);
 }
 
@@ -27,15 +27,16 @@
   flex-direction: column;
   justify-content:center;
   align-items: center;
+  padding-bottom: 10%;
 }
 
 .top-container h1 {
-  font-size: 100px;
+  font-size: 10vh;
   font-family: var(--logo-font);
 }
 
 .top-container h2 {
-  font-size: 30px;
+  font-size: 4vh;
   font-style: italic;
   font-family: var(--main-font);
 }
@@ -57,15 +58,15 @@
 }
 
 .main-img{ 
-  height: 800px;
+  height: 80vh;
 }
 
 .second-img, .third-img {
-  width: 325px;
+  width: 18%;
 }
 
 .second-img {
-  padding-left: 640px;
+  padding-left: 35.8%;
   margin-top: 10%;
 }
 
@@ -88,25 +89,61 @@
 .about-container h1 {
   width: 50%;
   padding-right: 5%;
-  font-size: 50px;
+  font-size: 5vh;
   font-family: var(--logo-font);
 }
 
 .about-container p {
   width: 100%;
-  font-size: 20px;
+  font-size: 2vh;
   font-family: var(--main-font);
 }
 
 #signature {
   text-align: end;
   margin-top: 10%;
-  font-size: 30px;
+  font-size: 3vh;
   font-family: var(--logo-font);
 }
 
 .link-to-contact{
   color: var(--logo-color);
+}
+
+@media (max-width: 2000px) {
+  .main-img{ 
+    height: 800px;
+  }
+  .top-container {
+    height: 800px;
+  }
+  .second-img {
+    padding-left: 640px;
+  }
+  .second-img, .third-img {
+    width: 325px;
+  }
+  .top-container h1 {
+    font-size: 100px;
+  }
+  
+  .top-container h2 {
+    font-size: 30px;
+  }
+  .title-flex {
+    padding-bottom: 0;
+  }
+  .about-container h1 {
+    font-size: 50px;
+  }
+  
+  .about-container p {
+    font-size: 20px;
+  }
+  
+  #signature {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1400px) {
